@@ -24,7 +24,7 @@ func init() {
 	flag.Parse()
 
 	if *rev {
-		fmt.Printf("[%s v%s]\n[35.226.128.15 %s]\n",
+		fmt.Printf("[%s v%s]\n[etcd %s]\n",
 			PROGRAM_NAME, PROGRAM_VERSION,
 			version.Version,
 		)
