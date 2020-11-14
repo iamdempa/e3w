@@ -30,7 +30,7 @@ const Member = React.createClass({
                     <Box flex vertical style={{ margin: "10px 0px 10px 100px", fontSize: 18 }}>
                         <Box flex>
                             <Box justified style={{ width: 90, marginRight: 50 }}>
-                                <div style={targetStyle}>Status</div>
+                                <div style={targetStyle}>Statuss</div>
                                 <div>
                                     {
                                         healthy ?
