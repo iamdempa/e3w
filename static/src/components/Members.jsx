@@ -6,6 +6,7 @@ import { Icon } from 'antd'
 const Member = React.createClass({
     render() {
         let member = this.props.member
+        alert(member.peerURLs)
         let size = 100
         let healthy = member.status === "healthy"
         let mainColor = healthy ? "#60be29" : "#ff6100"
@@ -40,7 +41,7 @@ const Member = React.createClass({
                             </Box>
                             <Box justified style={{ width: 190 }}>
                                 <div style={targetStyle}>DB Size</div>
-                                { member.db_size} Bytes
+                                {member.db_size} Bytes
                             </Box>
                         </Box>
                         <Box flex justified style={{ width: 320 }}>
@@ -49,7 +50,7 @@ const Member = React.createClass({
                         </Box>
                     </Box>
                     <Box center centerJustified style={{ width: 130, backgroundColor: roleColor, fontSize: 18, color: "black", fontWeight: 700 }}>
-                        {member.role.toUpperCase() }
+                        {member.role.toUpperCase()}
                     </Box>
                 </Box>
             </Box >
