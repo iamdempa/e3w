@@ -6,7 +6,7 @@ import { Icon } from 'antd'
 const Member = React.createClass({
     render() {
         let member = this.props.member
-        alert(member.peerURLs)
+        console.log(member.peerURLs)
         let size = 100
         let healthy = member.status === "healthy"
         let mainColor = healthy ? "#60be29" : "#ff6100"
