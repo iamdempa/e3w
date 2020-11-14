@@ -6,7 +6,8 @@ services:
   #   environment:
   #     - CLIENT_ADDR=35.226.128.15
   e3w:
-    image: soyking/e3w:latest
+    # image: soyking/e3w:latest
+    build: .
     volumes:
       - ./conf/config.default.ini:/app/conf/config.default.ini
     ports:
