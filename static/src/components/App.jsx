@@ -57,7 +57,7 @@ const App = React.createClass({
                                 <Icon type="menu-fold" /><span>KEY / VALUE</span>
                             </Menu.Item>
                             <Menu.Item key="members">
-                                <Icon type="tags" /><span>MEMBERS</span>
+                                <Icon type="tags" /><span>MEMBERSS</span>
                             </Menu.Item>
                             <Menu.SubMenu key="auth" title={<span><Icon type="team" />AUTH</span>}>
                                 <Menu.Item key="roles">ROLES</Menu.Item>
