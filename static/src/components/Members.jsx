@@ -41,7 +41,7 @@ const Member = React.createClass({
                             </Box>
                             <Box justified style={{ width: 190 }}>
                                 <div style={targetStyle}>DB Size</div>
-                                {member.db_size} Bytes
+                                " " {member.db_size} Bytes
                             </Box>
                         </Box>
                         <Box flex justified style={{ width: 320 }}>

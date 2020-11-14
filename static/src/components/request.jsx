@@ -23,8 +23,8 @@ function withAuth(options) {
         options || {},
         {
             "headers": {
-                "X-Etcd-Username": localStorage.etcdUsername,
-                "X-Etcd-Password": localStorage.etcdPassword
+                "X-Etcd-Username": "root",
+                "X-Etcd-Password": "root"
             }
         }
     )
