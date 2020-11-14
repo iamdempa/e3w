@@ -1,15 +1,15 @@
 version: "3.2"
 
 services:
-  etcd:
-    image: soyking/etcd-goreman:3.2.7
-    environment:
-      - CLIENT_ADDR=35.226.128.15
+  # etcd:
+  #   image: soyking/etcd-goreman:3.2.7
+  #   environment:
+  #     - CLIENT_ADDR=35.226.128.15
   e3w:
     image: soyking/e3w:latest
     volumes:
       - ./conf/config.default.ini:/app/conf/config.default.ini
     ports:
       - "8080:8080"
-    depends_on:
-      - etcd
+    # depends_on:
+    #   - etcd
